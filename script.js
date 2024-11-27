@@ -7,7 +7,7 @@ document.getElementById("button").addEventListener('click', () => {
         return;
     }
     if (name.length > 25) {
-        alert("Name cannot be more than 25 characters");
+        alert("Name cannot be more than 25 characters only");
         return;
     }
     if (!email.includes('@')) {
