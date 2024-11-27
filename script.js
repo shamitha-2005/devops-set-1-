@@ -11,7 +11,7 @@ document.getElementById("button").addEventListener('click', () => {
         return;
     }
     if (!email.includes('@')) {
-        alert("Enter valid email id");
+        alert("Enter valid email id only");
         return;
     }
     if (phone.length !== 10 || isNaN(phone)) {
